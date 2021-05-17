@@ -1,23 +1,28 @@
 <?php
-echo 'hello php!';
-
 $a = 3;
 $b = 4;
+echo $a + $b;
+?>
 
-echo $a + $b + "/n";
-
+<?php
 $array = ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"];
 echo $array[7];
+?>
 
+<?php
 $hello = "Hello,";
 $name = "Yuki";
 $world = "'s World!";
 echo $hello . $name . $world;
+?>
 
+<?php
 $tech_boost = "tech";
 $tech_boost .= " boost";
 echo $tech_boost;
+?>
 
+<?php
 $calendar_2018 = [
   "January" => "1月",
   "February" => "2月",
@@ -33,5 +38,6 @@ $calendar_2018 = [
   "December" => "12月"
 ];
 
-// 12月を表示する
+// 12月を表示
 echo $calendar_2018["December"];
+?>
